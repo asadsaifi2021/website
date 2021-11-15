@@ -176,8 +176,11 @@ img {
     bottom: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: black;
+    background: rgba(0, 0, 0, 0.62);
     opacity: 0.8;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    backdrop-filter: blur(10px);
 }
 
 /*================= NAV BAR =============*/
@@ -303,6 +306,16 @@ img {
 .home__blob {
     width: 200px;
     fill: var(--first-color);
+    position: relative;
+    transition: all 0.6s ease-out;
+    perspective: 1000px;
+    transform: rotateX(0deg) rotateY(0deg);
+    transform-style: preserve-3d;
+}
+
+.home__blob:hover {
+    transition: all 0.3s linear;
+    transform: scale(1.1);
 }
 
 .home__blob-img {
@@ -333,7 +346,6 @@ img {
 
 .home__scroll {
     /*display: none;*/
-
 }
 
 .home__scroll-button {
@@ -428,7 +440,7 @@ img {
     width: 500px;
     border-radius: 0.5rem;
     justify-self: center;
-    align-self: center;
+    /*align-self: center;*/
 }
 
 .about__description {
