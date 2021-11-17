@@ -475,6 +475,11 @@ img {
     width: 100%;
 }
 
+.ThreeDObject{
+    position: relative;
+    align-self: auto;
+}
+
 /*==================== SKILLS ====================*/
 .skills__container {
     row-gap: 0;
