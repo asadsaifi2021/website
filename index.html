@@ -179,11 +179,16 @@
 
                 <div class="ThreeDObject">
 
-                    <!-- 3D object -->
+<!--                     <!-- 3D object -->
                     <!-- This inserts the 3D object inside the aside container -->
                     <model-viewer src="scene.gltf" alt="VR Headset" auto-rotate camera-controls camera-orbit="0deg 90deg 4.5m" ar
                                   ios-src="scene.gltf">
-                    </model-viewer>
+                    </model-viewer> -->
+                    
+                    <model-viewer src="scene.gltf" shadow-intensity="1" ar
+                                  ar-modes="webxr scene-viewer quick-look" auto-rotate
+                                  camera-controls camera-orbit="0deg 90deg 4.5m"
+                                  alt="A 3D model carousel"></model-viewer>
                 </div>
 
                 <p class="about__description">Since then, I have always been fascinated with computers and I decided to
