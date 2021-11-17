@@ -14,6 +14,11 @@
     <!--================ SWIPER CSS ===============-->
     <link rel="stylesheet" href="../swiper-bundle.min.css">
 
+    <!--Imports a model-viewer JavaScript code -->
+    <!--It helps to handle how the 3D Object would be displayed -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
 </head>
 <body>
 <!---================= HEADER ==============-->
@@ -130,7 +135,7 @@
         165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
         129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
         -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            <image class="home__blob-img" xlink:href="../Photo.jpg"/>
+                            <image class="home__blob-img" xlink:href="../Photo - Copy.jpg"/>
                         </g>
                     </svg>
                 </div>
@@ -163,12 +168,24 @@
         <span class="section__subtitle">My Introduction</span>
 
         <div class="about__container container grid">
-            <img src="../AboutEdited.png" alt="" class="about__img">
+            <img src="../About.jpg" alt="" class="about__img">
+
+
 
             <div class="about__data">
                 <p class="about__description">Born in New Delhi, India and moved to Riyadh, Saudi Arabia after a couple
                     of years. There, I completed my high school diploma with a standing of 86%(3.7 GPA) majoring in
                     computer science.</p>
+
+                <div class="ThreeDObject">
+
+                    <!-- 3D objsect -->
+                    <!-- This inserts the 3D object inside the aside container -->
+                    <model-viewer src="../Model/scene.gltf" alt="VR Headset" auto-rotate camera-controls camera-orbit="0deg 90deg 4.5m" ar
+                                  ios-src="../Model/scene.gltf">
+                    </model-viewer>
+                </div>
+
                 <p class="about__description">Since then, I have always been fascinated with computers and I decided to
                     pursue a degree in computer science in Canada. Currently, I am a full-time undergraduate student and
                     a part-time worker at the Real Canadian Superstore.</p>
