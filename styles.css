@@ -477,7 +477,8 @@ img {
 
 .ThreeDObject{
     position: relative;
-    align-self: auto;
+    right: 10%;
+    transform: translateX(-10%);
 }
 
 /*==================== SKILLS ====================*/
