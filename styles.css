@@ -476,7 +476,7 @@ img {
 }
 
 .ThreeDObject{
-    position: relative;
+    position: absolute;
     right: 10%;
     transform: translateX(-10%);
 }
