@@ -171,20 +171,28 @@
             <img src="../About.jpg" alt="" class="about__img">
 
 
-
             <div class="about__data">
                 <p class="about__description">Born in New Delhi, India and moved to Riyadh, Saudi Arabia after a couple
                     of years. There, I completed my high school diploma with a standing of 86%(3.7 GPA) majoring in
                     computer science.</p>
 
                 <div class="ThreeDObject">
+
                     <!-- 3D object -->
                     <!-- This inserts the 3D object inside the aside container -->
-                    
-                    <model-viewer src="scene.gltf" shadow-intensity="1" ar
+                    <!--                    <model-viewer src="../Model/scene.gltf" alt="VR Headset" auto-rotate camera-controls camera-orbit="0deg 90deg 4.5m" ar-->
+                    <!--                                  ios-src="../Model/scene.gltf">-->
+                    <!--                    </model-viewer>-->
+
+                    <model-viewer src="../Model/scene.gltf" shadow-intensity="1" ar
                                   ar-modes="webxr scene-viewer quick-look" auto-rotate
                                   camera-controls camera-orbit="0deg 90deg 4.5m"
                                   alt="A 3D model carousel"></model-viewer>
+
+                    <!--                    <model-viewer src="../Model/dog.glb" shadow-intensity="1" ar-->
+                    <!--                                  ar-modes="webxr scene-viewer quick-look" auto-rotate-->
+                    <!--                                  camera-controls camera-orbit="50deg 90deg 10m"-->
+                    <!--                                  alt="A 3D model carousel"></model-viewer>-->
                 </div>
 
                 <p class="about__description">Since then, I have always been fascinated with computers and I decided to
@@ -544,8 +552,8 @@
             <!--==================== SERVICES 1====================-->
             <div class="services__content">
                 <div>
-                    <i class="uil uil-web-grid services__icon"></i>
-                    <h3 class="services__title">UI/UX <br> Designer</h3>
+                    <i class="uil uil-database services__icon"></i>
+                    <h3 class="services__title">Back-end <br> Developing</h3>
                 </div>
 
                 <span class="button button--flex button--small button--link services__button">
@@ -555,28 +563,28 @@
 
                 <div class="services__modal">
                     <div class="services__modal-content">
-                        <h4 class="services__modal-title">UI/UX <br> Designer</h4>
+                        <h4 class="services__modal-title">Back-end <br> Developing</h4>
                         <i class="uil uil-times services__modal-close"></i>
 
                         <ul class="services__modal-services grid">
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p>I develop the user interface.</p>
+                                <p>I create Java based programs.</p>
                             </li>
 
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p>Web page development</p>
+                                <p>I have created Python programs.</p>
                             </li>
 
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p>I create UX element interactions.</p>
+                                <p>Worked with MySQL, Django.</p>
                             </li>
 
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p>I position your company brand.</p>
+                                <p>Database administration.</p>
                             </li>
                         </ul>
                     </div>
@@ -587,7 +595,7 @@
             <div class="services__content">
                 <div>
                     <i class="uil uil-arrow services__icon"></i>
-                    <h3 class="services__title">Front-end <br> Developer</h3>
+                    <h3 class="services__title">Front-end <br> Developing</h3>
                 </div>
 
                 <span class="button button--flex button--small button--link services__button">
@@ -597,7 +605,7 @@
 
                 <div class="services__modal">
                     <div class="services__modal-content">
-                        <h4 class="services__modal-title">UI/UX <br> Designer</h4>
+                        <h4 class="services__modal-title">Front-end <br> Developing</h4>
                         <i class="uil uil-times services__modal-close"></i>
 
                         <ul class="services__modal-services grid">
@@ -628,8 +636,8 @@
             <!--==================== SERVICES 3====================-->
             <div class="services__content">
                 <div>
-                    <i class="uil uil-pen services__icon"></i>
-                    <h3 class="services__title">Branding <br> Designer</h3>
+                    <i class="uil uil-globe services__icon"></i>
+                    <h3 class="services__title">Web <br> Development</h3>
                 </div>
 
                 <span class="button button--flex button--small button--link services__button">
@@ -639,7 +647,7 @@
 
                 <div class="services__modal">
                     <div class="services__modal-content">
-                        <h4 class="services__modal-title">Branding <br> Designer</h4>
+                        <h4 class="services__modal-title">Web <br> Development</h4>
                         <i class="uil uil-times services__modal-close"></i>
 
                         <ul class="services__modal-services grid">
@@ -809,14 +817,15 @@
                 </div>
 
                 <div class="contact__content">
-                    <label for="" class="contact__label">Project</label>
+                    <label for="" class="contact__label">Subject</label>
                     <input type="text" class="contact__input">
                 </div>
 
                 <div class="contact__content">
                     <label for="" class="contact__label">Message</label>
 
-                    <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    <textarea name="" id="" cols="0" rows="7" placeholder="Type your message here"
+                              class="contact__input"></textarea>
                 </div>
 
                 <div>
