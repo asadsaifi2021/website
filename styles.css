@@ -915,6 +915,7 @@ img {
     border: none;
     outline: none;
     padding: 0.25rem 0.5rem 0.5rem 0;
+    resize: vertical;
 }
 
 /*==================== FOOTER ====================*/
@@ -947,17 +948,28 @@ img {
     row-gap: 1.5rem;
 }
 
-.footer__link:hover {
-    color: var(--first-color-lighter);
-}
-
 .footer__social {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-right: var(--mb-1-5);
 }
 
 .footer__social:hover {
     color: var(--first-color-lighter);
+}
+
+.facebook__icon:hover{
+    color: #4267B2;
+    transition: 0.3s ease-in;
+}
+
+.instagram__icon:hover{
+    color:  #fb3958;
+    transition: 0.3s ease-in;
+}
+
+.twitter__icon:hover{
+    color: #1DA1F2;
+    transition: 0.3s ease-in;
 }
 
 .footer__copy {
