@@ -306,12 +306,13 @@ img {
 
 .home__blob {
     width: 200px;
-    fill: var(--first-color);
+    fill: white;
     position: relative;
     transition: all 0.6s ease-out;
     perspective: 1000px;
     transform: rotateX(0deg) rotateY(0deg);
     transform-style: preserve-3d;
+
 }
 
 .home__blob:hover {
@@ -321,6 +322,8 @@ img {
 
 .home__blob-img {
     width: 200px;
+    height: 215px;
+    position: absolute;
 }
 
 .home__data {
@@ -806,6 +809,7 @@ img {
 .swiper-button-prev::after,
 .swiper-button-next::after {
     content: '';
+    overflow: hidden;
 }
 
 .swiper-portfolio-icon {
