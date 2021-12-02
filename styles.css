@@ -479,7 +479,7 @@ img {
     width: 100%;
 }
 
-.ThreeDObject{
+.ThreeDObject {
     position: absolute;
     right: 10%;
     transform: translateX(-10%);
@@ -548,6 +548,61 @@ img {
 .skills__percentage {
     display: block;
     background-color: var(--first-color);
+}
+
+.skills__icon_html {
+    font-size: x-large;
+    color: orange;
+}
+
+.skills__icon_css {
+    font-size: x-large;
+    color: darkblue;
+}
+
+.skills__icon_javascript {
+    font-size: x-large;
+    color: green;
+}
+
+.skills__icon_react {
+    font-size: x-large;
+    color: deepskyblue;
+}
+
+.skills__icon_java {
+    font-size: xx-large;
+    color: red;
+}
+
+.skills__icon_python {
+    font-size: x-large;
+    color: black;
+}
+
+.skills__icon_mysql {
+    font-size: x-large;
+    color: lightblue;
+}
+
+.skills__icon_django {
+    font-size: x-large;
+    color: darkgreen;
+}
+
+.skills__icon_photoshop {
+    font-size: x-large;
+    color: red;
+}
+
+.skills__icon_illustrator {
+    font-size: x-large;
+    color: orange;
+}
+
+.skills__icon_aftereffects {
+    font-size: x-large;
+    color: purple;
 }
 
 .skills__html {
@@ -957,17 +1012,17 @@ img {
     color: var(--first-color-lighter);
 }
 
-.facebook__icon:hover{
+.facebook__icon:hover {
     color: #4267B2;
     transition: 0.3s ease-in;
 }
 
-.instagram__icon:hover{
-    color:  #fb3958;
+.instagram__icon:hover {
+    color: #fb3958;
     transition: 0.3s ease-in;
 }
 
-.twitter__icon:hover{
+.twitter__icon:hover {
     color: #1DA1F2;
     transition: 0.3s ease-in;
 }
@@ -1081,6 +1136,7 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
+
     .home__content {
         grid-template-columns: max-content 1fr 1fr;
     }
