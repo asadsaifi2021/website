@@ -1335,6 +1335,10 @@ img {
     .footer__copy {
         margin-top: 4.5rem;
     }
+    
+    .video-bg{
+        height: 250px;
+    }
 }
 
 /* For large devices */
