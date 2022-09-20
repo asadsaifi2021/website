@@ -591,6 +591,11 @@ img {
     color: darkgreen;
 }
 
+.skills__icon_firebase {
+    font-size: x-large;
+    color: orange;
+}
+
 .skills__icon_photoshop {
     font-size: x-large;
     color: red;
